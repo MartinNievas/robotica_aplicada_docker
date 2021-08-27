@@ -16,10 +16,27 @@
   - [gmapping](https://github.com/ros-perception/slam_gmapping)
 ## VIO
   - [ROVIO](https://github.com/ethz-asl/rovio)
+  - [VINS-mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
+  - [OKVIS](https://github.com/ethz-asl/okvis)
+
 ## Árboles de Comportamiento. Planificación de movimientos (RRT, PRM).
-  - [Behavior Tree](https://github.com/miccol/ROS-Behavior-Tree) (TODO: ejemplo)
+  - [ROS Behavior Tree](https://github.com/miccol/ROS-Behavior-Tree) (TODO: ejemplo)
+  - [Behaviour Tree](https://github.com/BehaviorTree/BehaviorTree.CPP)
   - [OMPL](https://ompl.kavrakilab.org/) para planificación en base a muestreo
-  - RRT
+
+  - [RRT](https://en.wikipedia.org/wiki/Rapidly-exploring_random_tree) Rapidly-Exploring Random Trees
+    ![img from](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathPlanning/RRTstar/animation.gif)
+    - [scripts RRT](https://github.com/AtsushiSakai/PythonRobotics/tree/master/PathPlanning/RRT) (TODO:ejemplo)
+    - [scripts RRT*](https://github.com/AtsushiSakai/PythonRobotics/tree/master/PathPlanning/RRTStar) (TODO:ejemplo)
+    - [Sampling-based Algorithms for Optimal Motion Planning](https://arxiv.org/abs/1005.0416)
+
   - PRM
+      - [script PRM](https://github.com/AtsushiSakai/PythonRobotics/blob/master/PathPlanning/ProbabilisticRoadMap/probabilistic_road_map.py) (TODO: ejemplo)
+      ![](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathPlanning/ProbabilisticRoadMap/animation.gif)
+
 ## Segmentación de imágenes. SLAM Semántico. Consideraciones prácticas: Nvidia Jetson Nano, GPUs, TensorFlow, Keras, PyTorch.
+  - [co-fusion](https://github.com/martinruenz/co-fusion) (TODO: ejemplo)
+  - [segnet jetson](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-console-2.md) (TODO: probar)
+
+
 ## Práctica con iRobot Create 2 y ROS (move_base y behaviortree_cpp).
