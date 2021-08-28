@@ -12,17 +12,14 @@ Los siguientes temas están explicados [en este repo](https://github.com/eborghi
 ## Ejemplos con Turtlesim y iRobot Create 2.
 
 
-## Notas
-
-- Estaría bueno integrar [este repo](https://github.com/Tiryoh/docker-ros-desktop-vnc) para tener una ventana del simulador en el explorador y en otra el notebook conectado mediante localhost.
-
-
 ## Dockerfile
 Escritorio y notebook en ventanas del explorador.
 La imágen es armada a partir de [este](https://github.com/Tiryoh/docker-ros-desktop-vnc) y [este](https://github.com/eborghi10/ros-workshop) repo.
 ![](https://martinnievas.com/images/jupyter-ros.png)
 
+Para correr el container, ejecutar en una terminal:
 ```bash
+cd path_to/robotica_aplicada_docker/docs/u1
 docker build -t ros_tutorial:0.1 .
 docker run -p 6080:80 -p 8888:8888 --shm-size=512m ros_tutorial:0.1
 ```
